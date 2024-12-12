@@ -1,6 +1,12 @@
-# ASE_Project
+# Gacha Microservices
 
-Advanced Software Engineering 24/25 Course Project
+A Microservices-Powered Gacha API and Client.
+Advanced Software Engineering 24/25 Course Project.
+
+## About
+- Implemented using Flask and MongoDB.
+- Used Docker-compose
+- PHP client
 
 ## Get Started
 
