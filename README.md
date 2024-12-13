@@ -1,14 +1,55 @@
 # Gacha Microservices
 
-A Microservices-Powered Gacha API and Client.
-Advanced Software Engineering 24/25 Course Project.
+A **Microservices-Powered** Gacha **REST API** and **Web Client** developed as part of the Advanced Software Engineering 24/25 course project.
 
-## About
-- Implemented using Flask and MongoDB.
-- Used Docker-compose
-- PHP client
+Technologies used: Docker, Python, Flask, PHP, JavaScript, HTML, CSS, MongoDB, Redis, Docker Compose, Postman, Locust, OpenAPI Specification, GitHub Actions.
+
+## Architecture Overview
+
+The system showcases a **microservices-based architecture** built on **Docker Compose**, keeping in mind modularity, scalability, and adherence to modern software engineering principles.
+
+### Key Components:
+
+- **6 Microservices**:
+  - Implemented in **Python** using the **Flask** framework.
+  - Each service is isolated and communicates via REST APIs.
+
+- **Web Client Frontend**:
+  - Built with **PHP**, **JavaScript**, **HTML**, and **CSS**.
+  - Provides an intuitive user interface for interacting with the system.
+
+- **Databases**:
+  - **4 MongoDB Instances**:
+    - Each microservice uses its dedicated database for storing domain-specific data.
+  - **1 Redis Instance**:
+    - Optimized for the authentication microservice to ensure high-performance operations, such as token management.
+
+![image](https://github.com/user-attachments/assets/f75b72ac-fc88-42b9-942b-05d74d5b1262)
+
+## Tools and Enhancements
+
+- **Integration Testing**:
+  - Over 100 tests created and managed via **Postman** to ensure API reliability.
+
+- **Load Testing**:
+  - Conducted using **Locust** to evaluate system performance under high traffic.
+
+- **API Documentation**:
+  - Built using the **OpenAPI Specification** to provide clear and comprehensive API references.
+
+- **CI/CD Pipeline**:
+  - **GitHub Actions** workflows automate:
+    - Image building.
+    - Execution of integration and isolation tests.
+
+
+
+
+
 
 ## Get Started
+
+The whole architecture is fully containerized with **Docker Compose**, guaranteeing portability and an easy setup.
 
 1. Navigate to the src folder:
    
