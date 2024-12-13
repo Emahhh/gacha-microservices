@@ -2,7 +2,9 @@
 
 A **Microservices-Powered** Gacha **REST API** and **Web Client** developed as part of the Advanced Software Engineering 24/25 course project.
 
-Technologies used: Docker, Python, Flask, PHP, JavaScript, HTML, CSS, MongoDB, Redis, Docker Compose, Postman, Locust, OpenAPI Specification, GitHub Actions.
+**Technologies** used: Docker, Python, Flask, PHP, JavaScript, HTML, CSS, MongoDB, Redis, Docker Compose, Postman, Locust, OpenAPI Specification, GitHub Actions.
+
+**Skills** demonstrated: microservices architecture, containerization, REST API design, database management, frontend development, testing, performance optimization, API documentation, CI/CD pipeline implementation, and security best practices.
 
 ## Architecture Overview
 
